@@ -22,7 +22,7 @@ const
                "Open `fd`",
                "echo `date`",
                "` key opens console",
-               "l = 0 ? 1.0 : 2.0",
+               "y = 0 ? 1.0 : 2.0",
                "rmdir c:\\"]
 
   CharMap = block:
@@ -34,7 +34,7 @@ const
 
     charMap
 
-  NumTests = 3
+  NumTests = 8
 
 func charInfo(c: char): string =
   if isAlphaAscii(c):
