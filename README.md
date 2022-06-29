@@ -9,6 +9,8 @@ https://forum.nim-lang.org/t/9164
 This program tests you to see whether you can distinguish similar looking characters.
 If you fail the test, you should change font or font size so that you can pass the test.
 
+DUBF stands for 'Don't Use Bad Font'.
+
 ## Requirements
 
 Nim version 1.6.6
@@ -22,6 +24,14 @@ $ nimble run
 ```
 
 ## Sample Screen
+```console
+Please type following texts as is:
+Cat can`t fIy
+
+
+
+ >
+```
 
 ## Future work:
 - Implement it as desktop/mobile/web application
